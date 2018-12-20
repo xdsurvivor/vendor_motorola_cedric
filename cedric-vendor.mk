@@ -997,6 +997,60 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
 
+# WFD
+PRODUCT_COPY_FILES += \
+     vendor/motorola/cedric/proprietary/bin/wfdservice:system/bin/wfdservice \
+     vendor/motorola/cedric/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+     vendor/motorola/cedric/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+     vendor/motorola/cedric/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+     vendor/motorola/cedric/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+     vendor/motorola/cedric/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+     vendor/motorola/cedric/proprietary/lib/libaacwrapper.so:system/lib/libaacwrapper.so \
+     vendor/motorola/cedric/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+     vendor/motorola/cedric/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+     vendor/motorola/cedric/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+     vendor/motorola/cedric/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+     vendor/motorola/cedric/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+     vendor/motorola/cedric/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
+     vendor/motorola/cedric/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+     vendor/motorola/cedric/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+     vendor/motorola/cedric/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
+     vendor/motorola/cedric/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+     vendor/motorola/cedric/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+     vendor/motorola/cedric/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+     vendor/motorola/cedric/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
+     vendor/motorola/cedric/proprietary/lib64/libaacwrapper.so:system/lib64/libaacwrapper.so \
+     vendor/motorola/cedric/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
+     vendor/motorola/cedric/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+     vendor/motorola/cedric/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
+     vendor/motorola/cedric/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
+     vendor/motorola/cedric/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
+     vendor/motorola/cedric/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
+     vendor/motorola/cedric/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
+     vendor/motorola/cedric/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
+     vendor/motorola/cedric/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
+     vendor/motorola/cedric/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+     vendor/motorola/cedric/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
+     vendor/motorola/cedric/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
+     vendor/motorola/cedric/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so
+
 PRODUCT_PACKAGES += \
     TimeService \
     embms \
@@ -1026,7 +1080,9 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     CNEService \
     libbtnv \
-    UxPerformance
+    UxPerformance \
+    WfdService \
+    WfdCommon
 PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/cedric/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
